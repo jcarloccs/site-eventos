@@ -1,0 +1,11 @@
+#corpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}

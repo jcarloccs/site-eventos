@@ -1,0 +1,8 @@
+#container-eventos-lista {
+    border: 1px solid black;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
