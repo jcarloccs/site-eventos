@@ -1,8 +1,12 @@
 #container-eventos-lista {
     border: 1px solid black;
-}
-
-li {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 300px;
+    margin: 10px 0;
+}
+
+#container-eventos-lista > h4 {
+    margin: 10px;
 }

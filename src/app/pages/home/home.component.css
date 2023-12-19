@@ -7,5 +7,26 @@
 #titulo {
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    background-color: rgb(107, 107, 107);
+    text-transform: uppercase;
+    color: white;
+    padding: 20px;
+}
+
+#menu {
+    position: sticky;
+    top: 0;
+}
+
+#principal {
+    margin: 10px;
+}
+
+#todas {
+    margin: 10px;
+}
+
+#todas > h2 {
+    padding: 5px;
+    text-align: center;
 }

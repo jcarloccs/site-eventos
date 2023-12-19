@@ -1,5 +1,6 @@
 #container-menu {
-    border: 1px solid black;
+    border-bottom: 3px solid rgb(24, 93, 221);
+    background-color: cornflowerblue;
 }
 
 ul {
@@ -10,4 +11,12 @@ ul {
 
 li {
     margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
 }
