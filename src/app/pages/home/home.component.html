@@ -2,7 +2,7 @@
     <app-menu-bar></app-menu-bar>
 </div>
 <div id="titulo">
-    <h1>Eventos</h1>
+    <h1>Página de eventos</h1>
 </div>
 <div id="corpo">
     <div id="principal">
@@ -13,7 +13,8 @@
         </app-eventos-agora>
     </div>
     <div id="todas">
-        <h2>Últimos eventos</h2>
-        <app-eventos-lista *ngFor="let noticia of noticiasLista" [imagem]="noticia.imagem" [titulo]="noticia.titulo"></app-eventos-lista>
+        <h2 *ngIf="noticiasLista">Eventos</h2>
+        <app-eventos-lista *ngFor="let noticia of noticiasLista" [imagem]="noticia.imagem" [titulo]="noticia.titulo">
+        </app-eventos-lista>
     </div>
 </div>

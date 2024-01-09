@@ -3,7 +3,7 @@ import { MenuBarComponent } from "../../components/menu-bar/menu-bar.component";
 import { EventosAgoraComponent } from "../../components/eventos-agora/eventos-agora.component";
 import { EventosListaComponent } from "../../components/eventos-lista/eventos-lista.component";
 import { Noticia } from '../../data/objs';
-import { NgFor } from '@angular/common';
+import { NgFor, NgIf } from '@angular/common';
 import { DadosNoticiasService } from '../../services/dados-noticias.service'
 
 @Component({
@@ -11,7 +11,7 @@ import { DadosNoticiasService } from '../../services/dados-noticias.service'
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [MenuBarComponent, EventosAgoraComponent, EventosListaComponent, NgFor]
+    imports: [MenuBarComponent, EventosAgoraComponent, EventosListaComponent, NgFor, NgIf]
 })
 export class HomeComponent {
 
